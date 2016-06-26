@@ -29,8 +29,8 @@ matrix:
       dist: precise
     - rvm: ree
       dist: precise
-    - rvm: rbx-2
-      dist: precise
+    - rvm: rbx
+      os: osx
     - rvm: 2.0.0
       env: DB=mariadb55
       addons:
